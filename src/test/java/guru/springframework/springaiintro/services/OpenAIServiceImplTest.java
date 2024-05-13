@@ -15,7 +15,7 @@ class OpenAIServiceImplTest {
     @Test
     void getAnswer() {
 
-        String answer = openAIService.getAnswer("Tell me a bicycle joke");
+        String answer = openAIService.getAnswer("ile jest 20 podzielić na 2");
         System.out.println(answer);
     }
 }
